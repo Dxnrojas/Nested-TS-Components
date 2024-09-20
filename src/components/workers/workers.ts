@@ -58,6 +58,7 @@ class Workers extends HTMLElement {
     render() {
         if(this.shadowRoot){
             this.shadowRoot.innerHTML = `
+            <link rel="stylesheet" href="workers.css">
             <section>
                 <img src='${this.image || 'No image'}'>
                 <h2>${this.name || 'No name'}</h2>

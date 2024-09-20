@@ -37,7 +37,11 @@ class AppContainer extends HTMLElement{
         if(this.shadowRoot){
             this.shadowRoot.innerHTML=`
             <h1>Workers</h1>`
-        }
+            this.workers.forEach(worker =>{
+                this.shadowRoot?.appendChild(worker);
+            });
+            
+        };
         
     };
 
