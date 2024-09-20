@@ -1,4 +1,4 @@
-const workers = [
+ export const workers = [
     {
         id: 1,
         name: "Maria Lopez",
