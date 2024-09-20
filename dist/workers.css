@@ -1,3 +1,7 @@
+* {
+    display: flex;
+    flex-direction: row;
+}
 section {
     display: flex;
     flex-direction: column;

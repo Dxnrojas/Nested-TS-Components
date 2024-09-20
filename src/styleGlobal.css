@@ -1,6 +1,6 @@
-
-
 body {
-    font-family: "Mulish", sans-serif;}
+    font-family: "Mulish", sans-serif;
+    flex-direction: row;
+}
 
   
